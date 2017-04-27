@@ -1,0 +1,45 @@
+-   role: user
+    permissions:
+        -
+            resource: user
+            action: allow
+            methods: '*'
+        -
+            resource: comment
+            action: allow
+            methods:
+                - GET
+                - POST
+        -
+            resource: profile
+            action: allow
+            methods:
+                - GET
+                - POST
+                - PUT
+
+-   role: friend
+    permissions:
+        -
+            resource: user
+            action: allow
+            methods:
+                - GET
+        -
+            resource: comment
+            action: allow
+            methods:
+                - GET
+
+        -
+            resource: widget
+            action: allow
+            methods: '*'
+
+-   role: guest
+    includeRoles: friend
+
+-   role: owner
+    includeRoles:
+        - user
+        - friend

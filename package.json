@@ -1,0 +1,42 @@
+{
+  "name": "api-server-boilerplate",
+  "version": "0.5.0",
+  "description": "A Nodejs backend API boilerplate / starter kit that uses Mongoose, Passport JWT, ACL, ES6 & more",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "author": "David Berube <david@swiftblue.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "crypto": "0.0.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.2",
+    "express-status-monitor": "^0.1.9",
+    "express-validator": "^3.2.0",
+    "fs": "0.0.1-security",
+    "http-auth": "^3.1.3",
+    "jsonwebtoken": "^7.4.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "path": "^0.12.7",
+    "simple-express-acl": "^0.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
