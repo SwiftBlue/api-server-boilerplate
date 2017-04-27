@@ -1,3 +1,7 @@
+<a href="https://swiftblue.com/">
+    <img src="http://static.swiftblue.net/brand/logo.png" alt="SwiftBlue logo" title="SwiftBlue" align="right" height="40" />
+</a>
+
 # API Server Boilerplate
 
 Ready-made API Server Boilerplate / Starter Kit that uses ES6, Passport JWT for user auth, Express, Mongoose, and more.
